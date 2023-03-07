@@ -163,6 +163,15 @@
     href: ~/api/overview/azure/preview/attestation.md
     landingPageType: Service
     items:
+    - name: Attestation
+      href: ~/api/overview/azure/preview/security.attestation-readme.md
+      children:
+      - Azure.Security.Attestation
+    - name: Attestation
+      children:
+      - Microsoft.Azure.Attestation
+      - Microsoft.Azure.Attestation.Models
+      landingPageType: Service
     - name: Management
       items:
       - name: Resource Management - Attestation
