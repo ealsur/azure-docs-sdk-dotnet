@@ -1,0 +1,17 @@
+{
+  "Name": "Azure.Monitor.OpenTelemetry.AspNetCore",
+  "Version": "1.0.0-alpha.20230307.1",
+  "DevVersion": "1.0.0-alpha.20230307.1",
+  "DirectoryPath": "sdk/monitor/Azure.Monitor.OpenTelemetry.AspNetCore",
+  "ServiceDirectory": "monitor",
+  "ReadMePath": "sdk/monitor/Azure.Monitor.OpenTelemetry.AspNetCore/README.md",
+  "ChangeLogPath": "sdk/monitor/Azure.Monitor.OpenTelemetry.AspNetCore/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.Monitor.OpenTelemetry.AspNetCore",
+  "ReleaseStatus": null,
+  "Namespaces": [
+    "Azure.Monitor.OpenTelemetry.AspNetCore"
+  ]
+}
