@@ -86,7 +86,8 @@ azurecommunicationnetworktraversal,[tfm=netstandard2.0;isPrerelease=true]Azure.C
 azuremediavideoanalyzeredge,[tfm=netstandard2.0;isPrerelease=true]Azure.Media.VideoAnalyzer.Edge,1.0.0-beta.6
 azureverticalsagrifoodfarming,[tfm=netstandard2.0;isPrerelease=true]Azure.Verticals.AgriFood.Farming,1.0.0-beta.2
 microsoftazurewebjobsextensionswebpubsub,[tfm=netstandard2.0;isPrerelease=true;customSource=https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json]Microsoft.Azure.WebJobs.Extensions.WebPubSub,1.5.0-alpha.20230306.1
-azuresecurityconfidentialledger,[tfm=netstandard2.0;isPrerelease=true]Azure.Security.ConfidentialLedger,1.1.0-beta.1
+,CustomPackageSource
+azuresecurityconfidentialledger,[tfm=netstandard2.0;isPrerelease=true;customSource=https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json]Azure.Security.ConfidentialLedger,1.2.0-alpha.20230306.1
 azurecommunicationcallingserver,[tfm=netstandard2.0;isPrerelease=true]Azure.Communication.CallingServer,1.0.0-beta.3
 azuresearchdocuments,[tfm=netstandard2.0;isPrerelease=true]Azure.Search.Documents,11.5.0-beta.2
 azureailanguagequestionanswering,[tfm=netstandard2.0;isPrerelease=true]Azure.AI.Language.QuestionAnswering,1.1.0-beta.2
@@ -131,7 +132,7 @@ azureidentity,[tfm=netstandard2.0;isPrerelease=true]Azure.Identity,1.9.0-beta.2
 azureidentitybrokeredauthentication,[tfm=netstandard2.0;isPrerelease=true]Azure.Identity.BrokeredAuthentication,1.0.0-beta.3
 azureresourcemanagerhci,[tfm=netstandard2.0;isPrerelease=true]Azure.ResourceManager.Hci,1.0.0-beta.5
 azureresourcemanagerdnsresolver,[tfm=netstandard2.0;isPrerelease=true]Azure.ResourceManager.DnsResolver,1.0.0-beta.3
-azureresourcemanagermonitor,[tfm=netstandard2.0;isPrerelease=true]Azure.ResourceManager.Monitor,1.0.0-beta.3
+azureresourcemanagermonitor,[tfm=netstandard2.0;isPrerelease=true;customSource=https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json]Azure.ResourceManager.Monitor,1.1.0-alpha.20230306.1
 azureresourcemanagerextendedlocation,[tfm=netstandard2.0;isPrerelease=true]Azure.ResourceManager.ExtendedLocation,1.0.0-beta.2
 azureresourcemanagerappservice,[tfm=netstandard2.0;isPrerelease=true;customSource=https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json]Azure.ResourceManager.AppService,1.1.0-alpha.20230306.1
 azuremanagedserviceidentity,[tfm=netstandard2.0;isPrerelease=true]Microsoft.Azure.Management.ManagedServiceIdentity,3.0.0-beta.1
@@ -216,7 +217,7 @@ azureresourcemanagerhealthbot,[tfm=netstandard2.0;isPrerelease=true]Azure.Resour
 azureresourcemanagersupport,[tfm=netstandard2.0;isPrerelease=true]Azure.ResourceManager.Support,1.0.0-beta.1
 azureresourcemanagermarketplaceordering,[tfm=netstandard2.0;isPrerelease=true;customSource=https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json]Azure.ResourceManager.MarketplaceOrdering,1.1.0-alpha.20230306.1
 azureresourcemanagersearch,[tfm=netstandard2.0;isPrerelease=true]Azure.ResourceManager.Search,1.0.0-beta.1
-azureresourcemanagereventgrid,[tfm=netstandard2.0;isPrerelease=true]Azure.ResourceManager.EventGrid,1.0.0-beta.1
+azureresourcemanagereventgrid,[tfm=netstandard2.0;isPrerelease=true;customSource=https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json]Azure.ResourceManager.EventGrid,1.1.0-alpha.20230306.1
 azureresourcemanagerprivatedns,[tfm=netstandard2.0;isPrerelease=true]Azure.ResourceManager.PrivateDns,1.0.0-beta.1
 azureresourcemanagermanagedservices,[tfm=netstandard2.0;isPrerelease=true;customSource=https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json]Azure.ResourceManager.ManagedServices,1.1.0-alpha.20230306.1
 azureresourcemanagerstoragecache,[tfm=netstandard2.0;isPrerelease=true]Azure.ResourceManager.StorageCache,1.0.0-beta.1
@@ -294,7 +295,7 @@ azurecoreexpressionsdatafactory,[tfm=netstandard2.0;isPrerelease=true]Azure.Core
 azureresourcemanagerstoragemover,[tfm=netstandard2.0;isPrerelease=true]Azure.ResourceManager.StorageMover,1.0.0-beta.1
 microsoftextensionsconfigurationazureappconfiguration,[tfm=netstandard2.0;isPrerelease=true]Microsoft.Extensions.Configuration.AzureAppConfiguration,5.3.0-preview
 azurestoragedatamovement,[tfm=netstandard2.0;isPrerelease=true]Azure.Storage.DataMovement,12.0.0-beta.1
-azureresourcemanagerbillingbenefits,[tfm=netstandard2.0;isPrerelease=true]Azure.ResourceManager.BillingBenefits,1.0.0-beta.1
+azureresourcemanagerbillingbenefits,[tfm=netstandard2.0;isPrerelease=true;customSource=https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json]Azure.ResourceManager.BillingBenefits,1.0.0-alpha.20230306.1
 azurestoragedatamovementblobs,[tfm=netstandard2.0;isPrerelease=true]Azure.Storage.DataMovement.Blobs,12.0.0-beta.1
 azuremessagingwebpubsubclient,[tfm=netstandard2.0;isPrerelease=true;customSource=https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json]Azure.Messaging.WebPubSub.Client,1.0.0-alpha.20230306.1
 microsoftwindowsazuremanagementvirtualnetworks,[tfm=netstandard2.0;isPrerelease=true]Microsoft.WindowsAzure.Management.VirtualNetworks,0.9.9-preview
@@ -343,3 +344,5 @@ azureextensionsaspnetcoreconfigurationsecrets,[tfm=netstandard2.0;isPrerelease=t
 microsoftazurewebjobsextensionsclients,[tfm=netstandard2.0;isPrerelease=true;customSource=https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json]Microsoft.Azure.WebJobs.Extensions.Clients,1.0.0-alpha.20230306.1
 microsoftazureattestation,[tfm=netstandard2.0;isPrerelease=true;customSource=https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json]Microsoft.Azure.Attestation,0.10.0-alpha.20230306.1
 azureiothubservice,[tfm=netstandard2.0;isPrerelease=true;customSource=https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json]Azure.IoT.Hub.Service,1.0.0-alpha.20230306.1
+azureaivisioncore,[tfm=netstandard2.0;isPrerelease=true]Azure.AI.Vision.Core,0.9.0-beta.1
+azureaivisionimageanalysis,[tfm=netstandard2.0;isPrerelease=true]Azure.AI.Vision.ImageAnalysis,0.9.0-beta.1
