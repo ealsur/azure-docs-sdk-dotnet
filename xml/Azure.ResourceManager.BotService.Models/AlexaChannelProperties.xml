@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +28,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="alexaSkillId" Type="System.String" />
@@ -51,6 +53,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -71,6 +74,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -91,6 +95,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -101,16 +106,17 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="UrlFragment">
-      <MemberSignature Language="C#" Value="public string UrlFragment { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string UrlFragment" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.BotService.Models.AlexaChannelProperties.UrlFragment" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UrlFragment As String" />
-      <MemberSignature Language="F#" Value="member this.UrlFragment : string" Usage="Azure.ResourceManager.BotService.Models.AlexaChannelProperties.UrlFragment" />
+    <Member MemberName="UriFragment">
+      <MemberSignature Language="C#" Value="public string UriFragment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UriFragment" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.BotService.Models.AlexaChannelProperties.UriFragment" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UriFragment As String" />
+      <MemberSignature Language="F#" Value="member this.UriFragment : string" Usage="Azure.ResourceManager.BotService.Models.AlexaChannelProperties.UriFragment" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

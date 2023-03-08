@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.BotService.BotChannelResource&gt;</ReturnType>
@@ -63,9 +66,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}
-            Operation Id: Channels_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}</description></item><item><term>Operation Id</term><description>Channels_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -82,6 +83,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.BotChannelResource&gt;&gt;</ReturnType>
@@ -97,9 +99,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}
-            Operation Id: Channels_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}</description></item><item><term>Operation Id</term><description>Channels_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -107,15 +107,16 @@
       </Docs>
     </Member>
     <Member MemberName="CreateResourceIdentifier">
-      <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string resourceName, Azure.ResourceManager.BotService.Models.ChannelName channelName);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string resourceName, valuetype Azure.ResourceManager.BotService.Models.ChannelName channelName) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.BotService.BotChannelResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.BotService.Models.ChannelName)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateResourceIdentifier (subscriptionId As String, resourceGroupName As String, resourceName As String, channelName As ChannelName) As ResourceIdentifier" />
-      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * string * string * Azure.ResourceManager.BotService.Models.ChannelName -&gt; Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.BotService.BotChannelResource.CreateResourceIdentifier (subscriptionId, resourceGroupName, resourceName, channelName)" />
+      <MemberSignature Language="C#" Value="public static Azure.Core.ResourceIdentifier CreateResourceIdentifier (string subscriptionId, string resourceGroupName, string resourceName, Azure.ResourceManager.BotService.Models.BotChannelName channelName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Core.ResourceIdentifier CreateResourceIdentifier(string subscriptionId, string resourceGroupName, string resourceName, valuetype Azure.ResourceManager.BotService.Models.BotChannelName channelName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.BotService.BotChannelResource.CreateResourceIdentifier(System.String,System.String,System.String,Azure.ResourceManager.BotService.Models.BotChannelName)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateResourceIdentifier (subscriptionId As String, resourceGroupName As String, resourceName As String, channelName As BotChannelName) As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="static member CreateResourceIdentifier : string * string * string * Azure.ResourceManager.BotService.Models.BotChannelName -&gt; Azure.Core.ResourceIdentifier" Usage="Azure.ResourceManager.BotService.BotChannelResource.CreateResourceIdentifier (subscriptionId, resourceGroupName, resourceName, channelName)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -124,7 +125,7 @@
         <Parameter Name="subscriptionId" Type="System.String" />
         <Parameter Name="resourceGroupName" Type="System.String" />
         <Parameter Name="resourceName" Type="System.String" />
-        <Parameter Name="channelName" Type="Azure.ResourceManager.BotService.Models.ChannelName" />
+        <Parameter Name="channelName" Type="Azure.ResourceManager.BotService.Models.BotChannelName" />
       </Parameters>
       <Docs>
         <param name="subscriptionId">To be added.</param>
@@ -146,6 +147,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.BotService.BotChannelData</ReturnType>
@@ -167,6 +169,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -181,9 +184,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a Channel registration from a Bot Service
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}
-            Operation Id: Channels_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}</description></item><item><term>Operation Id</term><description>Channels_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -198,6 +199,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -212,9 +214,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a Channel registration from a Bot Service
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}
-            Operation Id: Channels_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}</description></item><item><term>Operation Id</term><description>Channels_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -229,6 +229,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.BotService.BotChannelResource&gt;</ReturnType>
@@ -240,9 +241,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a BotService Channel registration specified by the parameters.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}
-            Operation Id: Channels_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}</description></item><item><term>Operation Id</term><description>Channels_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -257,6 +256,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.BotChannelResource&gt;&gt;</ReturnType>
@@ -268,26 +268,25 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns a BotService Channel registration specified by the parameters.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}
-            Operation Id: Channels_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}</description></item><item><term>Operation Id</term><description>Channels_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetWithKeys">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.BotService.Models.ListChannelWithKeysResponse&gt; GetWithKeys (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.BotService.Models.ListChannelWithKeysResponse&gt; GetWithKeys(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.BotService.BotChannelResource.GetWithKeys(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWithKeys (Optional cancellationToken As CancellationToken = Nothing) As Response(Of ListChannelWithKeysResponse)" />
-      <MemberSignature Language="F#" Value="abstract member GetWithKeys : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.BotService.Models.ListChannelWithKeysResponse&gt;&#xA;override this.GetWithKeys : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.BotService.Models.ListChannelWithKeysResponse&gt;" Usage="botChannelResource.GetWithKeys cancellationToken" />
+    <Member MemberName="GetChannelWithKeys">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.BotService.Models.BotChannelGetWithKeysResult&gt; GetChannelWithKeys (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.BotService.Models.BotChannelGetWithKeysResult&gt; GetChannelWithKeys(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.BotService.BotChannelResource.GetChannelWithKeys(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetChannelWithKeys (Optional cancellationToken As CancellationToken = Nothing) As Response(Of BotChannelGetWithKeysResult)" />
+      <MemberSignature Language="F#" Value="abstract member GetChannelWithKeys : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.BotService.Models.BotChannelGetWithKeysResult&gt;&#xA;override this.GetChannelWithKeys : System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.BotService.Models.BotChannelGetWithKeysResult&gt;" Usage="botChannelResource.GetChannelWithKeys cancellationToken" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.BotService.Models.ListChannelWithKeysResponse&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.BotService.Models.BotChannelGetWithKeysResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -296,26 +295,25 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists a Channel registration for a Bot Service including secrets
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}/listChannelWithKeys
-            Operation Id: Channels_ListWithKeys
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}/listChannelWithKeys</description></item><item><term>Operation Id</term><description>Channels_ListWithKeys</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetWithKeysAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.Models.ListChannelWithKeysResponse&gt;&gt; GetWithKeysAsync (System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.BotService.Models.ListChannelWithKeysResponse&gt;&gt; GetWithKeysAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.BotService.BotChannelResource.GetWithKeysAsync(System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetWithKeysAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ListChannelWithKeysResponse))" />
-      <MemberSignature Language="F#" Value="abstract member GetWithKeysAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.Models.ListChannelWithKeysResponse&gt;&gt;&#xA;override this.GetWithKeysAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.Models.ListChannelWithKeysResponse&gt;&gt;" Usage="botChannelResource.GetWithKeysAsync cancellationToken" />
+    <Member MemberName="GetChannelWithKeysAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.Models.BotChannelGetWithKeysResult&gt;&gt; GetChannelWithKeysAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.BotService.Models.BotChannelGetWithKeysResult&gt;&gt; GetChannelWithKeysAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.BotService.BotChannelResource.GetChannelWithKeysAsync(System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetChannelWithKeysAsync (Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of BotChannelGetWithKeysResult))" />
+      <MemberSignature Language="F#" Value="abstract member GetChannelWithKeysAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.Models.BotChannelGetWithKeysResult&gt;&gt;&#xA;override this.GetChannelWithKeysAsync : System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.Models.BotChannelGetWithKeysResult&gt;&gt;" Usage="botChannelResource.GetChannelWithKeysAsync cancellationToken" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.Models.ListChannelWithKeysResponse&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.Models.BotChannelGetWithKeysResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
@@ -324,9 +322,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Lists a Channel registration for a Bot Service including secrets
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}/listChannelWithKeys
-            Operation Id: Channels_ListWithKeys
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}/listChannelWithKeys</description></item><item><term>Operation Id</term><description>Channels_ListWithKeys</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -341,6 +337,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -361,6 +358,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.BotService.BotChannelResource&gt;</ReturnType>
@@ -374,9 +372,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}
-            Operation Id: Channels_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}</description></item><item><term>Operation Id</term><description>Channels_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -393,6 +389,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.BotChannelResource&gt;&gt;</ReturnType>
@@ -406,9 +403,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}
-            Operation Id: Channels_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}</description></item><item><term>Operation Id</term><description>Channels_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -425,6 +420,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -444,6 +440,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.BotService.BotChannelResource&gt;</ReturnType>
@@ -457,9 +454,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}
-            Operation Id: Channels_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}</description></item><item><term>Operation Id</term><description>Channels_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -476,6 +471,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.BotChannelResource&gt;&gt;</ReturnType>
@@ -489,9 +485,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}
-            Operation Id: Channels_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}</description></item><item><term>Operation Id</term><description>Channels_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -508,6 +502,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.BotService.BotChannelResource&gt;</ReturnType>
@@ -521,9 +516,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a Channel registration for a Bot Service
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}
-            Operation Id: Channels_Update
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}</description></item><item><term>Operation Id</term><description>Channels_Update</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -540,6 +533,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.BotService.BotChannelResource&gt;&gt;</ReturnType>
@@ -553,9 +547,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a Channel registration for a Bot Service
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}
-            Operation Id: Channels_Update
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/channels/{channelName}</description></item><item><term>Operation Id</term><description>Channels_Update</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
