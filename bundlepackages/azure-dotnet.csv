@@ -411,3 +411,5 @@ azureresourcemanagerrecoveryservices,[tfm=netstandard2.0]Azure.ResourceManager.R
 azuremonitoringestion,[tfm=netstandard2.0]Azure.Monitor.Ingestion,1.0.0
 azureresourcemanagerautomanage,[tfm=netstandard2.0]Azure.ResourceManager.Automanage,1.0.0
 azureresourcemanagerstoragemover,[tfm=netstandard2.0]Azure.ResourceManager.StorageMover,1.0.0
+azuredeveloperloadtesting,[tfm=netstandard2.0;customSource=https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json]Azure.Developer.LoadTesting,1.0.0
+azureresourcemanagerbotservice,[tfm=netstandard2.0;customSource=https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json]Azure.ResourceManager.BotService,1.0.0

@@ -1,0 +1,8 @@
+{
+  "Name": "Azure.ResourceManager.BotService",
+  "Version": "1.0.0",
+  "Namespaces": [
+    "Azure.ResourceManager.BotService",
+    "Azure.ResourceManager.BotService.Models"
+  ]
+}

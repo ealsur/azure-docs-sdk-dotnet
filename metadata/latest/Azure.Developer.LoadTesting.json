@@ -1,0 +1,8 @@
+{
+  "Name": "Azure.Developer.LoadTesting",
+  "Version": "1.0.0",
+  "Namespaces": [
+    "Azure.Developer.LoadTesting",
+    "Microsoft.Extensions.Azure"
+  ]
+}
