@@ -18,6 +18,8 @@
     <AssemblyVersion>5.7.3.0</AssemblyVersion>
     <AssemblyVersion>5.7.4.0</AssemblyVersion>
     <AssemblyVersion>5.7.5.0</AssemblyVersion>
+    <AssemblyVersion>5.8.0.0</AssemblyVersion>
+    <AssemblyVersion>5.9.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -51,6 +53,8 @@
         <AssemblyVersion>5.7.3.0</AssemblyVersion>
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
+        <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -79,6 +83,8 @@
         <AssemblyVersion>5.7.3.0</AssemblyVersion>
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
+        <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventHubs.EventHubConnectionOptions</ReturnType>
@@ -106,6 +112,8 @@
         <AssemblyVersion>5.7.3.0</AssemblyVersion>
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
+        <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -123,7 +131,9 @@
                the Event Hubs gateway for automatic partition routing nor using a partition key.
              </summary>
         <value>
-          <c>true</c> if the producer should enable idempotent partition publishing; otherwise, <c>false</c>.</value>
+          <c>true</c> if the producer should enable idempotent partition publishing; otherwise, <c>false</c>.  Idempotent partitions
+               are disabled by default.
+             </value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -148,6 +158,8 @@
         <AssemblyVersion>5.7.3.0</AssemblyVersion>
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
+        <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -192,6 +204,8 @@
         <AssemblyVersion>5.7.3.0</AssemblyVersion>
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
+        <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -229,6 +243,8 @@
         <AssemblyVersion>5.7.3.0</AssemblyVersion>
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
+        <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -238,7 +254,7 @@
                A unique name used to identify the consumer.  If <c>null</c> or empty, a GUID will be used as the
                identifier.
              </summary>
-        <value>To be added.</value>
+        <value>If not specified, a random unique identifier will be generated.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -257,6 +273,8 @@
         <AssemblyVersion>5.7.3.0</AssemblyVersion>
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
+        <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -275,7 +293,7 @@
             
                <para>It is highly recommended that these options only be specified if there is a proven need to do so; Incorrectly configuring these
                values may result in an <see cref="T:Azure.Messaging.EventHubs.Producer.EventHubProducerClient" /> instance that is unable to publish to the Event Hubs.</para></summary>
-        <value>To be added.</value>
+        <value>The default partition options are an empty set.</value>
         <remarks>
                These options are ignored when publishing to the Event Hubs gateway for automatic routing or when using a partition key.
              </remarks>
@@ -302,6 +320,8 @@
         <AssemblyVersion>5.7.3.0</AssemblyVersion>
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
+        <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventHubs.EventHubsRetryOptions</ReturnType>
@@ -337,6 +357,8 @@
         <AssemblyVersion>5.7.3.0</AssemblyVersion>
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
+        <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

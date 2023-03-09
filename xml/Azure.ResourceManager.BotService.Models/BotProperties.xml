@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -18,19 +19,20 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public BotProperties (string displayName, string endpoint, string msaAppId);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string displayName, string endpoint, string msaAppId) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.BotService.Models.BotProperties.#ctor(System.String,System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (displayName As String, endpoint As String, msaAppId As String)" />
-      <MemberSignature Language="F#" Value="new Azure.ResourceManager.BotService.Models.BotProperties : string * string * string -&gt; Azure.ResourceManager.BotService.Models.BotProperties" Usage="new Azure.ResourceManager.BotService.Models.BotProperties (displayName, endpoint, msaAppId)" />
+      <MemberSignature Language="C#" Value="public BotProperties (string displayName, Uri endpoint, string msaAppId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string displayName, class System.Uri endpoint, string msaAppId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.BotService.Models.BotProperties.#ctor(System.String,System.Uri,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (displayName As String, endpoint As Uri, msaAppId As String)" />
+      <MemberSignature Language="F#" Value="new Azure.ResourceManager.BotService.Models.BotProperties : string * Uri * string -&gt; Azure.ResourceManager.BotService.Models.BotProperties" Usage="new Azure.ResourceManager.BotService.Models.BotProperties (displayName, endpoint, msaAppId)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="displayName" Type="System.String" />
-        <Parameter Name="endpoint" Type="System.String" />
+        <Parameter Name="endpoint" Type="System.Uri" />
         <Parameter Name="msaAppId" Type="System.String" />
       </Parameters>
       <Docs>
@@ -53,6 +55,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -73,6 +76,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -93,6 +97,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -113,6 +118,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -133,6 +139,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
@@ -153,6 +160,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -173,6 +181,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -193,6 +202,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -213,32 +223,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The Application Insights App Id. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="DisableLocalAuth">
-      <MemberSignature Language="C#" Value="public bool? DisableLocalAuth { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; DisableLocalAuth" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.BotService.Models.BotProperties.DisableLocalAuth" />
-      <MemberSignature Language="VB.NET" Value="Public Property DisableLocalAuth As Nullable(Of Boolean)" />
-      <MemberSignature Language="F#" Value="member this.DisableLocalAuth : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.BotService.Models.BotProperties.DisableLocalAuth" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Opt-out of local authentication and ensure only MSI and AAD can be used exclusively for authentication. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -253,6 +244,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -273,6 +265,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
@@ -284,18 +277,19 @@
       </Docs>
     </Member>
     <Member MemberName="Endpoint">
-      <MemberSignature Language="C#" Value="public string Endpoint { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string Endpoint" />
+      <MemberSignature Language="C#" Value="public Uri Endpoint { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri Endpoint" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.BotService.Models.BotProperties.Endpoint" />
-      <MemberSignature Language="VB.NET" Value="Public Property Endpoint As String" />
-      <MemberSignature Language="F#" Value="member this.Endpoint : string with get, set" Usage="Azure.ResourceManager.BotService.Models.BotProperties.Endpoint" />
+      <MemberSignature Language="VB.NET" Value="Public Property Endpoint As Uri" />
+      <MemberSignature Language="F#" Value="member this.Endpoint : Uri with get, set" Usage="Azure.ResourceManager.BotService.Models.BotProperties.Endpoint" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.Uri</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The bot's endpoint. </summary>
@@ -313,6 +307,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -333,6 +328,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -353,6 +349,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -373,12 +370,34 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Whether the bot is developerAppInsightsApiKey set. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLocalAuthDisabled">
+      <MemberSignature Language="C#" Value="public bool? IsLocalAuthDisabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsLocalAuthDisabled" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.BotService.Models.BotProperties.IsLocalAuthDisabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsLocalAuthDisabled As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.IsLocalAuthDisabled : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.BotService.Models.BotProperties.IsLocalAuthDisabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Opt-out of local authentication and ensure only MSI and AAD can be used exclusively for authentication. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -393,6 +412,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -413,6 +433,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
@@ -433,6 +454,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -453,6 +475,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -473,6 +496,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -493,6 +517,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -504,18 +529,19 @@
       </Docs>
     </Member>
     <Member MemberName="MsaAppMSIResourceId">
-      <MemberSignature Language="C#" Value="public string MsaAppMSIResourceId { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string MsaAppMSIResourceId" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier MsaAppMSIResourceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier MsaAppMSIResourceId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.BotService.Models.BotProperties.MsaAppMSIResourceId" />
-      <MemberSignature Language="VB.NET" Value="Public Property MsaAppMSIResourceId As String" />
-      <MemberSignature Language="F#" Value="member this.MsaAppMSIResourceId : string with get, set" Usage="Azure.ResourceManager.BotService.Models.BotProperties.MsaAppMSIResourceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property MsaAppMSIResourceId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.MsaAppMSIResourceId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.BotService.Models.BotProperties.MsaAppMSIResourceId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Microsoft App Managed Identity Resource Id for the bot. </summary>
@@ -533,6 +559,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -544,18 +571,19 @@
       </Docs>
     </Member>
     <Member MemberName="MsaAppType">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.BotService.Models.MsaAppType? MsaAppType { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.BotService.Models.MsaAppType&gt; MsaAppType" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.BotService.Models.BotMsaAppType? MsaAppType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.BotService.Models.BotMsaAppType&gt; MsaAppType" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.BotService.Models.BotProperties.MsaAppType" />
-      <MemberSignature Language="VB.NET" Value="Public Property MsaAppType As Nullable(Of MsaAppType)" />
-      <MemberSignature Language="F#" Value="member this.MsaAppType : Nullable&lt;Azure.ResourceManager.BotService.Models.MsaAppType&gt; with get, set" Usage="Azure.ResourceManager.BotService.Models.BotProperties.MsaAppType" />
+      <MemberSignature Language="VB.NET" Value="Public Property MsaAppType As Nullable(Of BotMsaAppType)" />
+      <MemberSignature Language="F#" Value="member this.MsaAppType : Nullable&lt;Azure.ResourceManager.BotService.Models.BotMsaAppType&gt; with get, set" Usage="Azure.ResourceManager.BotService.Models.BotProperties.MsaAppType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.BotService.Models.MsaAppType&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.BotService.Models.BotMsaAppType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Microsoft App Type for the bot. </summary>
@@ -573,6 +601,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -593,6 +622,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -613,6 +643,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.ResourceManager.BotService.BotServicePrivateEndpointConnectionData&gt;</ReturnType>
@@ -633,6 +664,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -644,18 +676,19 @@
       </Docs>
     </Member>
     <Member MemberName="PublicNetworkAccess">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.BotService.Models.PublicNetworkAccess? PublicNetworkAccess { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.BotService.Models.PublicNetworkAccess&gt; PublicNetworkAccess" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.BotService.Models.BotServicePublicNetworkAccess? PublicNetworkAccess { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.BotService.Models.BotServicePublicNetworkAccess&gt; PublicNetworkAccess" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.BotService.Models.BotProperties.PublicNetworkAccess" />
-      <MemberSignature Language="VB.NET" Value="Public Property PublicNetworkAccess As Nullable(Of PublicNetworkAccess)" />
-      <MemberSignature Language="F#" Value="member this.PublicNetworkAccess : Nullable&lt;Azure.ResourceManager.BotService.Models.PublicNetworkAccess&gt; with get, set" Usage="Azure.ResourceManager.BotService.Models.BotProperties.PublicNetworkAccess" />
+      <MemberSignature Language="VB.NET" Value="Public Property PublicNetworkAccess As Nullable(Of BotServicePublicNetworkAccess)" />
+      <MemberSignature Language="F#" Value="member this.PublicNetworkAccess : Nullable&lt;Azure.ResourceManager.BotService.Models.BotServicePublicNetworkAccess&gt; with get, set" Usage="Azure.ResourceManager.BotService.Models.BotProperties.PublicNetworkAccess" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Azure.ResourceManager.BotService.Models.PublicNetworkAccess&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.BotService.Models.BotServicePublicNetworkAccess&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Whether the bot is in an isolated network. </summary>
@@ -673,6 +706,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -693,6 +727,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -704,18 +739,19 @@
       </Docs>
     </Member>
     <Member MemberName="StorageResourceId">
-      <MemberSignature Language="C#" Value="public string StorageResourceId { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string StorageResourceId" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier StorageResourceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier StorageResourceId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.BotService.Models.BotProperties.StorageResourceId" />
-      <MemberSignature Language="VB.NET" Value="Public Property StorageResourceId As String" />
-      <MemberSignature Language="F#" Value="member this.StorageResourceId : string with get, set" Usage="Azure.ResourceManager.BotService.Models.BotProperties.StorageResourceId" />
+      <MemberSignature Language="VB.NET" Value="Public Property StorageResourceId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.StorageResourceId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.BotService.Models.BotProperties.StorageResourceId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The storage resourceId for the bot. </summary>
@@ -733,6 +769,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>

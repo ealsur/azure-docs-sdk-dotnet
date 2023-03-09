@@ -193,6 +193,11 @@
       - Microsoft.Azure.CognitiveServices.Search.AutoSuggest
       - Microsoft.Azure.CognitiveServices.Search.AutoSuggest.Models
       landingPageType: Service
+    - name: Auto Suggest
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.AutoSuggest
+      - Microsoft.Azure.CognitiveServices.Search.AutoSuggest.Models
+      landingPageType: Service
   - name: Automanage
     href: ~/api/overview/azure/latest/automanage.md
     landingPageType: Service
@@ -338,6 +343,17 @@
         - Microsoft.Azure.Management.Blueprint.Customizations.Extensions
         - Microsoft.Azure.Management.Blueprint.Models
         landingPageType: Service
+  - name: Bot Service
+    href: ~/api/overview/azure/latest/bot-service.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Bot Service
+        href: ~/api/overview/azure/latest/resourcemanager.botservice-readme.md
+        children:
+        - Azure.ResourceManager.BotService
+        - Azure.ResourceManager.BotService.Models
   - name: Change Analysis
     href: ~/api/overview/azure/latest/change-analysis.md
     landingPageType: Service
@@ -432,6 +448,11 @@
       - Microsoft.Azure.CognitiveServices.Vision.ComputerVision
       - Microsoft.Azure.CognitiveServices.Vision.ComputerVision.Models
       landingPageType: Service
+    - name: Vision Content Moderator
+      children:
+      - Microsoft.Azure.CognitiveServices.ContentModerator
+      - Microsoft.Azure.CognitiveServices.ContentModerator.Models
+      landingPageType: Service
     - name: Custom Vision Prediction
       children:
       - Microsoft.Azure.CognitiveServices.Vision.CustomVision.Prediction
@@ -480,6 +501,7 @@
       href: ~/api/overview/azure/latest/communication.phonenumbers-readme.md
       children:
       - Azure.Communication.PhoneNumbers
+      - Azure.Communication.PhoneNumbers.SipRouting
     - name: Communication SMS
       href: ~/api/overview/azure/latest/communication.sms-readme.md
       children:
@@ -818,10 +840,20 @@
       - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch
       - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch.Models
       landingPageType: Service
+    - name: Custom Image Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch
+      - Microsoft.Azure.CognitiveServices.Search.CustomImageSearch.Models
+      landingPageType: Service
   - name: Custom Search
     href: ~/api/overview/azure/latest/custom-search.md
     landingPageType: Service
     items:
+    - name: Custom Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.CustomSearch
+      - Microsoft.Azure.CognitiveServices.Search.CustomSearch.Models
+      landingPageType: Service
     - name: Custom Search
       children:
       - Microsoft.Azure.CognitiveServices.Search.CustomSearch
@@ -1011,6 +1043,11 @@
     href: ~/api/overview/azure/latest/entity-search.md
     landingPageType: Service
     items:
+    - name: Entity Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.EntitySearch
+      - Microsoft.Azure.CognitiveServices.Search.EntitySearch.Models
+      landingPageType: Service
     - name: Entity Search
       children:
       - Microsoft.Azure.CognitiveServices.Search.EntitySearch
@@ -1286,6 +1323,11 @@
       - Microsoft.Azure.CognitiveServices.Search.ImageSearch
       - Microsoft.Azure.CognitiveServices.Search.ImageSearch.Models
       landingPageType: Service
+    - name: Image Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.ImageSearch
+      - Microsoft.Azure.CognitiveServices.Search.ImageSearch.Models
+      landingPageType: Service
   - name: IoT
     href: ~/api/overview/azure/latest/iot.md
     landingPageType: Service
@@ -1508,6 +1550,11 @@
     href: ~/api/overview/azure/latest/load-testing.md
     landingPageType: Service
     items:
+    - name: Load Testing
+      href: ~/api/overview/azure/latest/developer.loadtesting-readme.md
+      children:
+      - Azure.Developer.LoadTesting
+      - Microsoft.Extensions.Azure
     - name: Management
       items:
       - name: Resource Management - Load Testing
@@ -1806,6 +1853,11 @@
     href: ~/api/overview/azure/latest/news-search.md
     landingPageType: Service
     items:
+    - name: News Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.NewsSearch
+      - Microsoft.Azure.CognitiveServices.Search.NewsSearch.Models
+      landingPageType: Service
     - name: News Search
       children:
       - Microsoft.Azure.CognitiveServices.Search.NewsSearch
@@ -2196,6 +2248,13 @@
         children:
         - Microsoft.Azure.Management.Search
         - Microsoft.Azure.Management.Search.Models
+        landingPageType: Service
+      - name: Management - Cognitive Search Fluent
+        children:
+        - Microsoft.Azure.Management.Search.Fluent
+        - Microsoft.Azure.Management.Search.Fluent.Models
+        - Microsoft.Azure.Management.Search.Fluent.SearchService.Definition
+        - Microsoft.Azure.Management.Search.Fluent.SearchService.Update
         landingPageType: Service
   - name: Security Center
     href: ~/api/overview/azure/latest/security-center.md
@@ -2797,6 +2856,11 @@
       - Microsoft.Azure.CognitiveServices.Search.VideoSearch
       - Microsoft.Azure.CognitiveServices.Search.VideoSearch.Models
       landingPageType: Service
+    - name: Video Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.VideoSearch
+      - Microsoft.Azure.CognitiveServices.Search.VideoSearch.Models
+      landingPageType: Service
   - name: Virtual Network
     href: ~/api/overview/azure/latest/virtual-network.md
     landingPageType: Service
@@ -2992,6 +3056,11 @@
       - Microsoft.Azure.CognitiveServices.Search.VisualSearch
       - Microsoft.Azure.CognitiveServices.Search.VisualSearch.Models
       landingPageType: Service
+    - name: Visual Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.VisualSearch
+      - Microsoft.Azure.CognitiveServices.Search.VisualSearch.Models
+      landingPageType: Service
   - name: VMware Solution
     href: ~/api/overview/azure/latest/vmware-solution.md
     landingPageType: Service
@@ -3023,6 +3092,11 @@
     href: ~/api/overview/azure/latest/web-search.md
     landingPageType: Service
     items:
+    - name: Web Search
+      children:
+      - Microsoft.Azure.CognitiveServices.Search.WebSearch
+      - Microsoft.Azure.CognitiveServices.Search.WebSearch.Models
+      landingPageType: Service
     - name: Web Search
       children:
       - Microsoft.Azure.CognitiveServices.Search.WebSearch
