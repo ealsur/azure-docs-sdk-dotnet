@@ -413,3 +413,4 @@ azureresourcemanagerautomanage,[tfm=netstandard2.0]Azure.ResourceManager.Automan
 azureresourcemanagerstoragemover,[tfm=netstandard2.0]Azure.ResourceManager.StorageMover,1.0.0
 azuredeveloperloadtesting,[tfm=netstandard2.0]Azure.Developer.LoadTesting,1.0.0
 azureresourcemanagerbotservice,[tfm=netstandard2.0]Azure.ResourceManager.BotService,1.0.0
+microsoftazuremanagementsearchfluent,[tfm=netstandard2.0]Microsoft.Azure.Management.Search.Fluent,1.38.1
