@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.Models.TrackedResourceData</BaseTypeName>
@@ -30,6 +31,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="location" Type="Azure.Core.AzureLocation" />
@@ -50,6 +52,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ETag&gt;</ReturnType>
@@ -70,6 +73,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.BotService.Models.BotServiceKind&gt;</ReturnType>
@@ -81,23 +85,19 @@
       </Docs>
     </Member>
     <Member MemberName="Properties">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.BotService.Models.BotChannelProperties Properties { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.BotService.Models.BotChannelProperties Properties" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.BotService.Models.BotChannelProperties Properties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.BotService.Models.BotChannelProperties Properties" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.BotService.BotChannelData.Properties" />
-      <MemberSignature Language="VB.NET" Value="Public Property Properties As BotChannelProperties" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.Properties : Azure.ResourceManager.BotService.Models.BotChannelProperties with get, set" Usage="Azure.ResourceManager.BotService.BotChannelData.Properties" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.BotService.Models.Channel Properties { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.BotService.Models.Channel Properties" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property Properties As Channel" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.Properties : Azure.ResourceManager.BotService.Models.Channel with get, set" Usage="Azure.ResourceManager.BotService.BotChannelData.Properties" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property Properties As BotChannelProperties" />
+      <MemberSignature Language="F#" Value="member this.Properties : Azure.ResourceManager.BotService.Models.BotChannelProperties with get, set" Usage="Azure.ResourceManager.BotService.BotChannelData.Properties" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.ResourceManager.BotService.Models.BotChannelProperties</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.ResourceManager.BotService.Models.Channel</ReturnType>
+        <ReturnType>Azure.ResourceManager.BotService.Models.BotChannelProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -119,6 +119,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.BotService.Models.BotServiceSku</ReturnType>
@@ -139,6 +140,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.BotService</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
