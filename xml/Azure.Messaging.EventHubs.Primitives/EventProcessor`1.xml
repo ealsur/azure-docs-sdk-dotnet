@@ -19,6 +19,8 @@
     <AssemblyVersion>5.7.4.0</AssemblyVersion>
     <AssemblyVersion>5.7.5.0</AssemblyVersion>
     <AssemblyVersion>5.8.0.0</AssemblyVersion>
+    <AssemblyVersion>5.8.1.0</AssemblyVersion>
+    <AssemblyVersion>5.9.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="TPartition">
@@ -72,6 +74,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -103,6 +107,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="eventBatchMaximumCount" Type="System.Int32" />
@@ -151,6 +157,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="eventBatchMaximumCount" Type="System.Int32" />
@@ -198,6 +206,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="eventBatchMaximumCount" Type="System.Int32" />
@@ -243,6 +253,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="eventBatchMaximumCount" Type="System.Int32" />
@@ -288,6 +300,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="eventBatchMaximumCount" Type="System.Int32" />
@@ -333,6 +347,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.Messaging.EventHubs.Primitives.EventProcessorPartitionOwnership&gt;&gt;</ReturnType>
@@ -375,6 +391,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -410,6 +428,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventHubs.EventHubConnection</ReturnType>
@@ -445,6 +465,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -490,6 +512,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -525,6 +549,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -560,6 +586,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Messaging.EventHubs.Primitives.EventProcessorCheckpoint&gt;</ReturnType>
@@ -610,6 +638,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -651,6 +681,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -685,6 +717,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -719,6 +753,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -769,6 +805,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Azure.Messaging.EventHubs.Primitives.EventProcessorPartitionOwnership&gt;&gt;</ReturnType>
@@ -808,6 +846,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.String[]&gt;</ReturnType>
@@ -848,6 +888,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -897,6 +939,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -947,6 +991,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1011,6 +1057,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1076,6 +1124,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventHubs.Consumer.LastEnqueuedEventProperties</ReturnType>
@@ -1122,6 +1172,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventHubs.EventHubsRetryPolicy</ReturnType>
@@ -1156,6 +1208,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1200,6 +1254,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1245,6 +1301,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1288,6 +1346,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1332,6 +1392,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1367,6 +1429,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1405,12 +1469,14 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="cancellationToken">A <see cref="T:System.Threading.CancellationToken" /> instance to signal the request to cancel the validation.</param>

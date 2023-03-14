@@ -19,6 +19,8 @@
     <AssemblyVersion>5.7.4.0</AssemblyVersion>
     <AssemblyVersion>5.7.5.0</AssemblyVersion>
     <AssemblyVersion>5.8.0.0</AssemblyVersion>
+    <AssemblyVersion>5.8.1.0</AssemblyVersion>
+    <AssemblyVersion>5.9.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -53,6 +55,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="partitionId" Type="System.String" />
@@ -91,6 +95,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.CancellationToken</ReturnType>
@@ -131,6 +137,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -165,6 +173,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventHubs.Processor.ProcessingStoppedReason</ReturnType>

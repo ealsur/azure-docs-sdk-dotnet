@@ -19,6 +19,8 @@
     <AssemblyVersion>5.7.4.0</AssemblyVersion>
     <AssemblyVersion>5.7.5.0</AssemblyVersion>
     <AssemblyVersion>5.8.0.0</AssemblyVersion>
+    <AssemblyVersion>5.8.1.0</AssemblyVersion>
+    <AssemblyVersion>5.9.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.Messaging.MessageContent</BaseTypeName>
@@ -46,6 +48,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -77,6 +81,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="eventBody" Type="System.BinaryData" />
@@ -111,6 +117,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="eventBody" Type="System.ReadOnlyMemory&lt;System.Byte&gt;" />
@@ -143,6 +151,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="eventBody" Type="System.String" />
@@ -177,6 +187,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -235,6 +247,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -293,6 +307,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -338,6 +354,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -362,8 +380,8 @@
                prefer the <see cref="P:Azure.Messaging.EventHubs.EventData.EventBody" /> where possible in order to take advantage of
                additional functionality and improved usability for common scenarios.
              </remarks>
-        <altmember cref="P:Azure.Messaging.EventHubs.EventData.EventBody" />
         <altmember cref="M:System.BinaryData.ToStream" />
+        <altmember cref="P:Azure.Messaging.EventHubs.EventData.EventBody" />
       </Docs>
     </Member>
     <Member MemberName="ContentType">
@@ -386,6 +404,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -427,6 +447,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -467,6 +489,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -503,6 +527,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -544,6 +570,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -567,8 +595,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Messaging.EventHubs.EventData.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="eventData.Equals obj" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="abstract member Equals : obj -&gt; bool&#xA;override this.Equals : obj -&gt; bool" Usage="eventData.Equals obj" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="eventData.Equals obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
@@ -585,6 +612,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -630,6 +659,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -646,8 +677,8 @@
                the <see cref="P:Azure.Messaging.EventHubs.EventData.Properties" /> to associate serialization hints to aid consumers
                who wish to deserialize the binary data.
              </remarks>
-        <altmember cref="T:System.BinaryData" />
         <altmember cref="P:Azure.Messaging.EventHubs.EventData.Properties" />
+        <altmember cref="T:System.BinaryData" />
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -655,8 +686,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Messaging.EventHubs.EventData.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
-      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="eventData.GetHashCode " FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="abstract member GetHashCode : unit -&gt; int&#xA;override this.GetHashCode : unit -&gt; int" Usage="eventData.GetHashCode " FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="eventData.GetHashCode " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
@@ -673,6 +703,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -712,6 +744,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Amqp.AmqpAnnotatedMessage</ReturnType>
@@ -752,6 +786,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -791,6 +827,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -835,6 +873,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -875,6 +915,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -916,6 +958,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
@@ -965,6 +1009,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -1005,6 +1051,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;</ReturnType>
@@ -1029,8 +1077,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Messaging.EventHubs.EventData.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="eventData.ToString " FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="abstract member ToString : unit -&gt; string&#xA;override this.ToString : unit -&gt; string" Usage="eventData.ToString " FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="eventData.ToString " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.EventHubs</AssemblyName>
@@ -1047,6 +1094,8 @@
         <AssemblyVersion>5.7.4.0</AssemblyVersion>
         <AssemblyVersion>5.7.5.0</AssemblyVersion>
         <AssemblyVersion>5.8.0.0</AssemblyVersion>
+        <AssemblyVersion>5.8.1.0</AssemblyVersion>
+        <AssemblyVersion>5.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
