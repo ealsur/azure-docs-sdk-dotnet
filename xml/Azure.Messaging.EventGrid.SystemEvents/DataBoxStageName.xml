@@ -8,6 +8,8 @@
     <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
     <AssemblyVersion>4.13.0.0</AssemblyVersion>
     <AssemblyVersion>4.14.0.0</AssemblyVersion>
+    <AssemblyVersion>4.14.1.0</AssemblyVersion>
+    <AssemblyVersion>4.15.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -33,6 +35,8 @@
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="value" Type="System.String" />
@@ -56,6 +60,8 @@
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.DataBoxStageName</ReturnType>
@@ -77,6 +83,8 @@
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.DataBoxStageName</ReturnType>
@@ -101,6 +109,8 @@
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -127,6 +137,8 @@
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -159,6 +171,8 @@
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -187,6 +201,8 @@
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -214,6 +230,8 @@
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.DataBoxStageName</ReturnType>
@@ -239,6 +257,8 @@
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -266,6 +286,8 @@
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.DataBoxStageName</ReturnType>
@@ -287,6 +309,8 @@
         <AssemblyName>Azure.Messaging.EventGrid</AssemblyName>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

@@ -21,6 +21,8 @@
     <AssemblyVersion>4.12.0.0</AssemblyVersion>
     <AssemblyVersion>4.13.0.0</AssemblyVersion>
     <AssemblyVersion>4.14.0.0</AssemblyVersion>
+    <AssemblyVersion>4.14.1.0</AssemblyVersion>
+    <AssemblyVersion>4.15.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -51,6 +53,8 @@
         <AssemblyVersion>4.12.0.0</AssemblyVersion>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Messaging.EventGrid.SystemEvents.AcsRecordingChannelType&gt;</ReturnType>
@@ -75,6 +79,8 @@
         <AssemblyVersion>4.12.0.0</AssemblyVersion>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Messaging.EventGrid.SystemEvents.AcsRecordingContentType&gt;</ReturnType>
@@ -99,6 +105,8 @@
         <AssemblyVersion>4.12.0.0</AssemblyVersion>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Messaging.EventGrid.SystemEvents.AcsRecordingFormatType&gt;</ReturnType>
@@ -126,6 +134,8 @@
         <AssemblyVersion>4.12.0.0</AssemblyVersion>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -159,6 +169,8 @@
         <AssemblyVersion>4.12.0.0</AssemblyVersion>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -199,6 +211,8 @@
         <AssemblyVersion>4.12.0.0</AssemblyVersion>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -226,6 +240,8 @@
         <AssemblyVersion>4.12.0.0</AssemblyVersion>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -266,6 +282,8 @@
         <AssemblyVersion>4.12.0.0</AssemblyVersion>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -300,6 +318,8 @@
         <AssemblyVersion>4.12.0.0</AssemblyVersion>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventGrid.SystemEvents.AcsRecordingStorageInfoProperties</ReturnType>
@@ -334,6 +354,8 @@
         <AssemblyVersion>4.12.0.0</AssemblyVersion>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
         <AssemblyVersion>4.14.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.1.0</AssemblyVersion>
+        <AssemblyVersion>4.15.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
