@@ -23,6 +23,8 @@
     <AssemblyVersion>7.11.1.0</AssemblyVersion>
     <AssemblyVersion>7.12.0.0</AssemblyVersion>
     <AssemblyVersion>7.13.0.0</AssemblyVersion>
+    <AssemblyVersion>7.13.1.0</AssemblyVersion>
+    <AssemblyVersion>7.14.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -65,6 +67,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;</ReturnType>
@@ -107,6 +111,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -145,6 +151,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -184,6 +192,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -224,6 +234,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -262,6 +274,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -300,6 +314,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -341,6 +357,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -382,6 +400,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -421,6 +441,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -461,6 +483,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -485,13 +509,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusReceivedMessage</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="message" Type="Azure.Core.Amqp.AmqpAnnotatedMessage" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="lockTokenBytes" Type="System.BinaryData" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="message" Type="Azure.Core.Amqp.AmqpAnnotatedMessage" />
+        <Parameter Name="lockTokenBytes" Type="System.BinaryData" />
       </Parameters>
       <Docs>
         <param name="message">The AMQP message.</param>
@@ -529,6 +555,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.Amqp.AmqpAnnotatedMessage</ReturnType>
@@ -570,6 +598,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -610,6 +640,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -653,6 +685,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -698,6 +732,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -739,6 +775,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -780,6 +818,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -818,6 +858,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -857,6 +899,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -898,6 +942,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -933,6 +979,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusMessageState</ReturnType>
@@ -972,6 +1020,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1011,6 +1061,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -1055,6 +1107,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1096,6 +1150,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1132,6 +1188,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

@@ -23,6 +23,8 @@
     <AssemblyVersion>7.11.1.0</AssemblyVersion>
     <AssemblyVersion>7.12.0.0</AssemblyVersion>
     <AssemblyVersion>7.13.0.0</AssemblyVersion>
+    <AssemblyVersion>7.13.1.0</AssemblyVersion>
+    <AssemblyVersion>7.14.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -74,6 +76,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -109,6 +113,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connectionString" Type="System.String" />
@@ -156,6 +162,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="fullyQualifiedNamespace" Type="System.String" />
@@ -197,6 +205,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connectionString" Type="System.String" />
@@ -246,6 +256,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="fullyQualifiedNamespace" Type="System.String" />
@@ -288,6 +300,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="fullyQualifiedNamespace" Type="System.String" />
@@ -331,6 +345,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="fullyQualifiedNamespace" Type="System.String" />
@@ -374,6 +390,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Messaging.ServiceBus.ServiceBusSessionReceiver&gt;</ReturnType>
@@ -433,6 +451,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Messaging.ServiceBus.ServiceBusSessionReceiver&gt;</ReturnType>
@@ -494,6 +514,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Messaging.ServiceBus.ServiceBusSessionReceiver&gt;</ReturnType>
@@ -553,6 +575,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Messaging.ServiceBus.ServiceBusSessionReceiver&gt;</ReturnType>
@@ -614,6 +638,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusProcessor</ReturnType>
@@ -664,6 +690,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusProcessor</ReturnType>
@@ -715,6 +743,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusProcessor</ReturnType>
@@ -767,6 +797,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusProcessor</ReturnType>
@@ -816,6 +848,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusReceiver</ReturnType>
@@ -865,6 +899,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusReceiver</ReturnType>
@@ -916,6 +952,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusReceiver</ReturnType>
@@ -969,6 +1007,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusReceiver</ReturnType>
@@ -1013,6 +1053,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusRuleManager</ReturnType>
@@ -1058,6 +1100,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusSender</ReturnType>
@@ -1094,6 +1138,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusSender</ReturnType>
@@ -1145,6 +1191,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusSessionProcessor</ReturnType>
@@ -1192,6 +1240,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusSessionProcessor</ReturnType>
@@ -1244,6 +1294,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
@@ -1284,6 +1336,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1294,31 +1348,6 @@
                to be similar to <c>{yournamespace}.servicebus.windows.net</c>.
              </summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetTransportMetrics">
-      <MemberSignature Language="C#" Value="public virtual Azure.Messaging.ServiceBus.ServiceBusTransportMetrics GetTransportMetrics ();" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Messaging.ServiceBus.ServiceBusTransportMetrics GetTransportMetrics() cil managed" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="DocId" Value="M:Azure.Messaging.ServiceBus.ServiceBusClient.GetTransportMetrics" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetTransportMetrics () As ServiceBusTransportMetrics" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="abstract member GetTransportMetrics : unit -&gt; Azure.Messaging.ServiceBus.ServiceBusTransportMetrics&#xA;override this.GetTransportMetrics : unit -&gt; Azure.Messaging.ServiceBus.ServiceBusTransportMetrics" Usage="serviceBusClient.GetTransportMetrics " FrameworkAlternate="azure-dotnet-preview" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
-        <AssemblyVersion>7.8.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.Messaging.ServiceBus.ServiceBusTransportMetrics</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>
-            Gets the metrics associated with this <see cref="T:Azure.Messaging.ServiceBus.ServiceBusClient" /> instance. The metrics returned represent a snapshot and will not be updated.
-            To get updated metrics, this method should be called again.
-            In order to use this property, <see cref="P:Azure.Messaging.ServiceBus.ServiceBusClientOptions.EnableTransportMetrics" /> must be set to <value>true</value>.
-            </summary>
-        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1336,6 +1365,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1374,6 +1405,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1414,6 +1447,8 @@
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
         <AssemblyVersion>7.13.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.1.0</AssemblyVersion>
+        <AssemblyVersion>7.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusTransportType</ReturnType>

@@ -10,13 +10,14 @@
     <AssemblyVersion>4.1.0.0</AssemblyVersion>
     <AssemblyVersion>4.2.0.0</AssemblyVersion>
     <AssemblyVersion>4.3.0.0</AssemblyVersion>
+    <AssemblyVersion>4.4.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Model factory for read-only models. </summary>
+    <summary> Model factory for models. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -33,6 +34,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.3.0.0</AssemblyVersion>
+        <AssemblyVersion>4.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Administration.KeyVaultBackupOperation</ReturnType>
@@ -55,7 +57,7 @@
         <param name="endTime"> The end time of the restore operation.</param>
         <param name="errorMessage">The error message generated from the operation, if any.</param>
         <summary>
-            Initializes a new instance of a FullBackupOperation for mocking purposes.
+            Initializes a new instance of a <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultBackupOperation" /> for mocking purposes.
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -74,6 +76,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.3.0.0</AssemblyVersion>
+        <AssemblyVersion>4.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Administration.KeyVaultBackupResult</ReturnType>
@@ -88,9 +91,9 @@
         <param name="startTime">The start time of the backup operation.</param>
         <param name="endTime">The end time of the backup operation.</param>
         <summary>
-            Initializes a new instance of a <see cref="M:Azure.Security.KeyVault.Administration.KeyVaultAdministrationModelFactory.BackupResult(System.Uri,System.DateTimeOffset,System.DateTimeOffset)" /> for mocking purposes.
+            Initializes a new instance of a <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultBackupResult" /> for mocking purposes.
             </summary>
-        <returns>A new <see cref="M:Azure.Security.KeyVault.Administration.KeyVaultAdministrationModelFactory.BackupResult(System.Uri,System.DateTimeOffset,System.DateTimeOffset)" /> instance.</returns>
+        <returns>A new <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultBackupResult" /> instance.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -104,12 +107,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
         <AssemblyVersion>4.3.0.0</AssemblyVersion>
+        <AssemblyVersion>4.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Administration.GetSettingsResult</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="settings" Type="System.Collections.Generic.IEnumerable&lt;Azure.Security.KeyVault.Administration.KeyVaultSetting&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="settings" Type="System.Collections.Generic.IEnumerable&lt;Azure.Security.KeyVault.Administration.KeyVaultSetting&gt;" />
       </Parameters>
       <Docs>
         <param name="settings"> A response message containing a list of account settings with their associated value. </param>
@@ -131,6 +135,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.3.0.0</AssemblyVersion>
+        <AssemblyVersion>4.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Administration.KeyVaultRoleAssignment</ReturnType>
@@ -164,6 +169,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.3.0.0</AssemblyVersion>
+        <AssemblyVersion>4.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Administration.KeyVaultRoleAssignmentProperties</ReturnType>
@@ -194,6 +200,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.3.0.0</AssemblyVersion>
+        <AssemblyVersion>4.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Administration.KeyVaultRoleDefinition</ReturnType>
@@ -235,6 +242,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.3.0.0</AssemblyVersion>
+        <AssemblyVersion>4.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -269,6 +277,35 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="KeyVaultSetting">
+      <MemberSignature Language="C#" Value="public static Azure.Security.KeyVault.Administration.KeyVaultSetting KeyVaultSetting (string name = default, string content = default, Azure.Security.KeyVault.Administration.KeyVaultSettingType? settingType = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Security.KeyVault.Administration.KeyVaultSetting KeyVaultSetting(string name, string content, valuetype System.Nullable`1&lt;valuetype Azure.Security.KeyVault.Administration.KeyVaultSettingType&gt; settingType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Security.KeyVault.Administration.KeyVaultAdministrationModelFactory.KeyVaultSetting(System.String,System.String,System.Nullable{Azure.Security.KeyVault.Administration.KeyVaultSettingType})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function KeyVaultSetting (Optional name As String = Nothing, Optional content As String = Nothing, Optional settingType As Nullable(Of KeyVaultSettingType) = Nothing) As KeyVaultSetting" />
+      <MemberSignature Language="F#" Value="static member KeyVaultSetting : string * string * Nullable&lt;Azure.Security.KeyVault.Administration.KeyVaultSettingType&gt; -&gt; Azure.Security.KeyVault.Administration.KeyVaultSetting" Usage="Azure.Security.KeyVault.Administration.KeyVaultAdministrationModelFactory.KeyVaultSetting (name, content, settingType)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Security.KeyVault.Administration</AssemblyName>
+        <AssemblyVersion>4.3.0.0</AssemblyVersion>
+        <AssemblyVersion>4.4.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Security.KeyVault.Administration.KeyVaultSetting</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="content" Type="System.String" />
+        <Parameter Name="settingType" Type="System.Nullable&lt;Azure.Security.KeyVault.Administration.KeyVaultSettingType&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="name"> The account setting to be updated. </param>
+        <param name="content"> The value of the pool setting. </param>
+        <param name="settingType"> The type specifier of the value. </param>
+        <summary> Initializes a new instance of KeyVaultSetting. </summary>
+        <returns> A new <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultSetting" /> instance for mocking. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="RestoreOperation">
       <MemberSignature Language="C#" Value="public static Azure.Security.KeyVault.Administration.KeyVaultRestoreOperation RestoreOperation (Azure.Response response, Azure.Security.KeyVault.Administration.KeyVaultBackupClient client, string id, DateTimeOffset? startTime = default, DateTimeOffset? endTime = default, string errorMessage = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Azure.Security.KeyVault.Administration.KeyVaultRestoreOperation RestoreOperation(class Azure.Response response, class Azure.Security.KeyVault.Administration.KeyVaultBackupClient client, string id, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; startTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; endTime, string errorMessage) cil managed" />
@@ -282,6 +319,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.3.0.0</AssemblyVersion>
+        <AssemblyVersion>4.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Administration.KeyVaultRestoreOperation</ReturnType>
@@ -302,7 +340,7 @@
         <param name="endTime"> The end time of the restore operation.</param>
         <param name="errorMessage">The error message generated from the operation, if any.</param>
         <summary>
-            Initializes a new instance of a FullRestoreOperation for mocking purposes.
+            Initializes a new instance of a <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultRestoreOperation" /> for mocking purposes.
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -321,6 +359,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.3.0.0</AssemblyVersion>
+        <AssemblyVersion>4.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Administration.KeyVaultRestoreResult</ReturnType>
@@ -333,9 +372,9 @@
         <param name="startTime">The start time of the restore operation.</param>
         <param name="endTime">The end time of the restore operation.</param>
         <summary>
-            Initializes a new instance of a <see cref="M:Azure.Security.KeyVault.Administration.KeyVaultAdministrationModelFactory.RestoreResult(System.DateTimeOffset,System.DateTimeOffset)" /> for mocking purposes.
+            Initializes a new instance of a <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultRestoreResult" /> for mocking purposes.
             </summary>
-        <returns>A new <see cref="M:Azure.Security.KeyVault.Administration.KeyVaultAdministrationModelFactory.BackupResult(System.Uri,System.DateTimeOffset,System.DateTimeOffset)" /> instance.</returns>
+        <returns>A new <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultRestoreResult" /> instance.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -352,6 +391,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.3.0.0</AssemblyVersion>
+        <AssemblyVersion>4.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Administration.KeyVaultRoleAssignment</ReturnType>
@@ -387,6 +427,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.3.0.0</AssemblyVersion>
+        <AssemblyVersion>4.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Administration.KeyVaultRoleDefinition</ReturnType>
@@ -430,6 +471,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.3.0.0</AssemblyVersion>
+        <AssemblyVersion>4.4.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Security.KeyVault.Administration.KeyVaultRestoreResult</ReturnType>
@@ -442,9 +484,9 @@
         <param name="startTime">The start time of the restore operation.</param>
         <param name="endTime">The end time of the restore operation.</param>
         <summary>
-            Initializes a new instance of a <see cref="M:Azure.Security.KeyVault.Administration.KeyVaultAdministrationModelFactory.SelectiveKeyRestoreResult(System.DateTimeOffset,System.DateTimeOffset)" /> for mocking purposes.
+            Initializes a new instance of a <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultRestoreResult" /> for mocking purposes.
             </summary>
-        <returns>A new <see cref="M:Azure.Security.KeyVault.Administration.KeyVaultAdministrationModelFactory.BackupResult(System.Uri,System.DateTimeOffset,System.DateTimeOffset)" /> instance.</returns>
+        <returns>A new <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultRestoreResult" /> instance.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
